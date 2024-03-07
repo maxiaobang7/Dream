@@ -110,12 +110,12 @@ const Home: NextPage = () => {
 
       <a
           className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
-          href="https://github.com/guaguaguaxia/weekly_report"
+          href="https://www.tudingai.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Github />
-          <p>Star on GitHub</p>
+          <p>更多免费AI工具</p>
         </a>
 
 
@@ -228,7 +228,7 @@ const Home: NextPage = () => {
                       className="bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border"
                       onClick={() => {
                         navigator.clipboard.writeText(generatedChat.trim());
-                        toast("已复制完整周报内容", {
+                        toast("已复制完整内容", {
                           icon: "✂️",
                         });
                       }}
